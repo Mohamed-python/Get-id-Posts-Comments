@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Get the Facebook post comments ID</title>
+  
+
+  <style>
+    body {
+      width: 300px;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* font-family: Arial, sans-serif; */
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+    }
+    #login-page, #main-page {
+      display: none;
+      flex-direction: column;
+      
+      align-items: center;
+      justify-content: center;
+      width: 270px;
+    }
+    #login-page {
+      display: flex;
+    }
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    input[type="number"], input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      /* margin-bottom: 5px; */
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px;
+      font-size: 18px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+
+
+    #startButton {
+      /* padding: 10px; */
+      /* margin-bottom: -20px; */
+      width: 100px;
+
+
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .follow-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .follow-button:hover {
+      background-color: #0056b3;
+    }
+    h1 {
+      border-bottom: 2px solid #007bff;
+      padding: 5px;
+    }
+    @keyframes moveText {
+      from {
+          transform: translateX(100%);
+      }
+      to {
+          transform: translateX(0);
+      }
+    }
+    h1 {
+      animation: moveText 2s ease forwards;
+    }
+
+    #login-page h3{
+      
+      color: #007bff;     
+      padding: 0px;
+      margin-bottom: -5px;
+      
+    }
+  </style>
+</head>
+<body>
+  <div id="login-page">
+    <h1>Login</h1>
+
+
+    <h3>Get the Facebook post comments ID</h3>
+  </br>
+    <img src="https://f.top4top.io/p_30913r9w82.jpg" alt="Power Family Tools" style="padding: 0px; width: 280px ;border-radius: 10px;">
+    
+    <h3>Power Family Group is always the best.</h3>
+
+  </br>
+    <input type="password" id="activationKey" placeholder="Enter activation key" >  
+  </br>
+    <button style="width: 130px;" id="loginButton">Login</button>
+  </div>
+  
+
+  <div id="main-page">
+    <h1 class="typing-effect">Power Family Tools</h1>
+  </br>
+    <img  src="https://e.top4top.io/p_3091kpf431.png" alt="Power Family Tools" style="margin-top: -30px;padding: 10px;">
+    <h3>Get the Facebook post comments ID</h3>
+  </br>
+    <input type="number" id="inputNumber" width="50px" placeholder="Enter the required number" min="1">
+    
+  </br>
+    
+    <button id="startButton" >Start</button>
+  </div>
+
+
+  <script src="popup.js"></script>
+</body>
+</html>
